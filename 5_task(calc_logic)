@@ -1,0 +1,31 @@
+def calc_logic():
+    print("1=and,2=or,3=not. введите номер")
+    a = int(input())
+    if a == 2:
+        print("введите первое значение:")
+        b = int(input())
+        print("введите второе значение:")
+        c = int(input())
+        e = c+b
+        if e>0:
+            print("1")
+        else:
+            print("0")
+    if a == 1:
+        print("введите первое значение:")
+        b = int(input())
+        print("введите второе значение:")
+        c = int(input())
+        e = c * b
+        if e > 0:
+            print("1")
+        else:
+            print("0")
+
+    if a == 3:
+        print("введите значение:")
+        b = int(input())
+        if b > 0:
+            print("0")
+        else:
+            print("1")
